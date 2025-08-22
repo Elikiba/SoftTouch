@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Luxury - Premier Dining Experience</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Ccircle cx='25' cy='25' r='23' stroke='%23FFDF00' stroke-width='2' fill='none'/%3E%3Cpath d='M15 20h20M15 25h20M15 30h20' stroke='%23FFDF00' stroke-width='1.5' stroke-linecap='round'/%3E%3Ccircle cx='25' cy='25' r='8' stroke='%23FFDF00' stroke-width='1' fill='none'/%3E%3Ctext x='25' y='42' text-anchor='middle' fill='%23FFDF00' font-size='6' font-family='serif'%3ETL%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <svg width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none" class="logo-circle"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round" class="logo-lines"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none" class="logo-inner"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+            </div>
+            <div class="loading-text">
+                <span class="loading-letter">T</span>
+                <span class="loading-letter">I</span>
+                <span class="loading-letter">M</span>
+                <span class="loading-letter">E</span>
+                <span class="loading-letter">L</span>
+                <span class="loading-letter">E</span>
+                <span class="loading-letter">S</span>
+                <span class="loading-letter">S</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+                <span class="logo-text">Timeless Luxury</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="restaurant.html" class="nav-link">Restaurant</a>
+                <a href="rooftop.html" class="nav-link">Rooftop Bar</a>
+                <a href="hotel.html" class="nav-link">Hotel</a>
+                <a href="lounge.html" class="nav-link">Lounge</a>
+                <a href="nightclub.html" class="nav-link">Nightclub</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero overview-hero">
+        <div class="hero-content">
+            <h1 class="hero-title dynamic-text">Timeless Luxury</h1>
+            <p class="hero-subtitle">Five extraordinary venues, one unforgettable destination</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary pulse-animation">Explore Our Venues</button>
+                <button class="btn btn-secondary">Make Reservation</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Luxury dining experience" loading="lazy">
+        </div>
+    </section>
+
+
+        <!-- Venues Section -->
+    <section class="venues">
+        <div class="container">
+            <h2 class="section-title">Our Venues</h2>
+            <div class="venues-grid">
+                <div class="venue-card" onclick="window.location.href='rooftop.html'">
+                    <img src="https://images.pexels.com/photos/2290070/pexels-photo-2290070.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rooftop Bar" loading="lazy">
+                    <div class="venue-overlay">
+                        <h3>Rooftop Bar</h3>
+                        <p>Sky-high sophistication with panoramic city views</p>
+                    </div>
+                </div>
+                <div class="venue-card" onclick="window.location.href='restaurant.html'">
+                    <img src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fine Dining Restaurant" loading="lazy">
+                    <div class="venue-overlay">
+                        <h3>Fine Dining Restaurant</h3>
+                        <p>Culinary excellence in an elegant atmosphere</p>
+                    </div>
+                </div>
+                <div class="venue-card" onclick="window.location.href='club.html'">
+                    <img src="https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Private Club" loading="lazy">
+                    <div class="venue-overlay">
+                        <h3>Private Club</h3>
+                        <p>Private dining and entertainment for discerning guests</p>
+                    </div>
+                </div>
+                <div class="venue-card" onclick="window.location.href='bar.html'">
+                    <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Classic Bar" loading="lazy">
+                    <div class="venue-overlay">
+                        <h3>Classic Bar</h3>
+                        <p>Timeless cocktails in an elegant setting</p>
+                    </div>
+                </div>
+                <div class="venue-card" onclick="window.location.href='nightclub.html'">
+                    <img src="https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nightclub" loading="lazy">
+                    <div class="venue-overlay">
+                        <h3>Electric Nightclub</h3>
+                        <p>Where luxury meets the underground nightlife scene</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>A Symphony of Flavors</h2>
+                    <p>At Timeless Luxury, we craft extraordinary dining experiences that transcend the ordinary. Our master chefs blend traditional techniques with innovative approaches, creating dishes that are both familiar and revolutionary.</p>
+                    <p>Every detail, from our hand-selected ingredients to our elegant ambiance, is carefully curated to provide you with an unforgettable journey through taste and sophistication.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">#1</span>
+                            <span class="stat-label">Hottest new Location in Benin</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Star Rating</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Signature Dishes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Chef preparing meal" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Dishes -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Signature Creations</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Wagyu Beef" loading="lazy">
+                    <div class="dish-info">
+                        <h3>Wagyu Tenderloin</h3>
+                        <p>Premium wagyu beef with truffle reduction and seasonal vegetables</p>
+                        <span class="price">₦85,000</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Lobster Dish" loading="lazy">
+                    <div class="dish-info">
+                        <h3>Maine Lobster Thermidor</h3>
+                        <p>Fresh lobster with cognac cream sauce and herb breadcrumbs</p>
+                        <span class="price">₦65,000</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dessert" loading="lazy">
+                    <div class="dish-info">
+                        <h3>Chocolate Soufflé</h3>
+                        <p>Dark chocolate soufflé with gold leaf and vanilla bean ice cream</p>
+                        <span class="price">₦28,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="map-prominent" style="margin-bottom: 2.5rem; text-align: center;">
+                <h2 style="font-size:2rem; margin-bottom:1rem;">Find Us</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.659952410153!2d5.615893274044582!3d6.308327725628363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3000dfdac51%3A0x42b49ca675206bda!2sTimeless%20luxury-Benin!5e0!3m2!1sen!2sng!4v1755189213915!5m2!1sen!2sng"
+                    width="90%" height="400" style="border:0; border-radius: 16px; box-shadow:0 4px 24px rgba(0,0,0,0.12); max-width:900px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div style="margin-top:1rem; font-size:1.1rem; color:#ffffff;">63, Ihama road, GRA, Benin City, Nigeria</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Reserve Your Experience</h2>
+                    <p>Let us create an unforgettable evening for you and your guests.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Reservations</h4>
+                            <p>07086137054</p>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <h4>Hours</h4>
+                            <p>Monday - Thursday: 5:00 PM - 11:00 PM<br>
+                               Friday - Saturday: 5:00 PM - 12:00 AM<br>
+                               Sunday: 5:00 PM - 10:00 PM</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="reservation-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="time" name="time" required>
+                                <option value="">Select Time</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="17:30">5:30 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="18:30">6:30 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="19:30">7:30 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="20:30">8:30 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" name="guests" required>
+                                <option value="">Number of Guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="8">8+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Special Requests" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Make Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                            <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                            <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                        </svg>
+                        <span>Timeless Luxury</span>
+                    </div>
+                    <p>Creating extraordinary dining experiences since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="rooftop.html">Rooftop Bar</a></li>
+                        <li><a href="hotel.html">Hotel</a></li>
+                        <li><a href="lounge.html">Lounge</a></li>
+                        <li><a href="nightclub.html">Nightclub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>07086137054</li>
+                        <li>info@timelessluxury.com</li>
+                        <li>63, Ihama road, GRA, Benin City, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                            <a href="https://www.instagram.com/timelessluxurybenincity" target="_blank"><i class="fab fa-instagram" style="color: #E4405F;"></i></a>
+                            <a href="https://vt.tiktok.com/ZSSoeafyb" target="_blank"><i class="fab fa-tiktok" style="color: #010101;"></i></a>
+                            <a href="https://facebook.com/TimelessLuxuryNG" target="_blank"><i class="fab fa-facebook" style="color: #1877F3;"></i></a>
+                     </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Timeless Luxury. All rights reserved. | Designed by Elikiba&trade;</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/2348123456789" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
