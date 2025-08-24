@@ -332,11 +332,17 @@ p {
 }
 
 .hero-image img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-heavy);
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-heavy);
+}
+
+@media (max-width: 767px) {
+    .hero-image img {
+        height: 300px;
+    }
 }
 
 .image-overlay {
@@ -1665,8 +1671,6 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
-     justify-content: center;
-    align-items: center;
 }
 
 .footer-logo {
