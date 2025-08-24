@@ -474,6 +474,10 @@ p {
     border: 2px solid var(--gold);
 }
 
+.light-btn {
+    color: var(--light-gray);
+}
+
 .btn-secondary:hover {
     background: var(--gold);
     color: var(--dark);
@@ -502,7 +506,7 @@ section {
 .section-title::after {
     content: '';
     position: absolute;
-    width: 60px;
+    width: 90px;
     height: 3px;
     background: linear-gradient(90deg, var(--gold) 0%, var(--dark-gold) 100%);
     bottom: -10px;
@@ -1661,6 +1665,8 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
+     justify-content: center;
+    align-items: center;
 }
 
 .footer-logo {
