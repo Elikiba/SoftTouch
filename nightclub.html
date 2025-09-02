@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nightclub - Timeless Luxury</title>
-    <link rel="icon" type="image/svg+xml" href="media/logo-f.png">
+    <link rel="icon" type="image/svg+xml" href="media/logo-t.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,7 +79,10 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="media/club/club-1.jpg" alt="Nightclub atmosphere" loading="lazy">
+            <picture>
+                <source srcset="media/club-1.jpg" media="(max-width: 768px)">
+                <img src="media/show-5.jpg" alt="Nightclub atmosphere" class="hero-img-desktop" >
+            </picture>
             <div class="nightclub-overlay"></div>
         </div>
     </section>
@@ -90,8 +93,8 @@
             <div class="ticker-content">
                 <span class="ticker-item">🎵 Tonight: DJ NEXUS Live Set</span>
                 <span class="ticker-item">🍾 VIP Bottle Service Available</span>
-                <span class="ticker-item">🎭 Saturday: Masquerade Night</span>
-                <span class="ticker-item">💎 Premium Sound System by L-Acoustics</span>
+                <span class="ticker-item">🎭 Wednesday: Strippers Night</span>
+                <span class="ticker-item">💎 Premium Sound System</span>
                 <span class="ticker-item">🌟 Celebrity Guest Appearances</span>
             </div>
         </div>
@@ -134,37 +137,37 @@
                 <div class="event-card">
                     <div class="event-date">
                         <span class="day">15</span>
-                        <span class="month">FEB</span>
+                        <span class="month">SEP</span>
                     </div>
                     <div class="event-info">
                         <h3>NEXUS Live</h3>
                         <p>International DJ sensation bringing electrifying beats</p>
                         <div class="event-details">
                             <span class="event-time">10:00 PM - 4:00 AM</span>
-                            <span class="event-price">₦45,000 Entry</span>
+                            <span class="event-price">Entry FREE</span>
                         </div>
                     </div>
                     <button class="btn btn-primary btn-small">Get Tickets</button>
                 </div>
                 <div class="event-card">
                     <div class="event-date">
-                        <span class="day">22</span>
-                        <span class="month">FEB</span>
+                        <span class="day">30</span>
+                        <span class="month">SEP</span>
                     </div>
                     <div class="event-info">
                         <h3>Masquerade Night</h3>
                         <p>Elegant mystery meets underground energy</p>
                         <div class="event-details">
                             <span class="event-time">9:00 PM - 3:00 AM</span>
-                            <span class="event-price">₦35,000 Entry</span>
+                            <span class="event-price">₦15,000 Entry</span>
                         </div>
                     </div>
                     <button class="btn btn-primary btn-small">Get Tickets</button>
                 </div>
                 <div class="event-card">
                     <div class="event-date">
-                        <span class="day">01</span>
-                        <span class="month">MAR</span>
+                        <span class="day">10</span>
+                        <span class="month">OCT</span>
                     </div>
                     <div class="event-info">
                         <h3>Neon Nights</h3>
@@ -180,6 +183,39 @@
         </div>
     </section>
 
+      <!-- Signature Cocktails -->
+    <section class="nightclub-cocktails">
+        <div class="container">
+            <h2 class="section-title">Signature Night Cocktails</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card glow-card">
+                    <img src="media/rps-4.jpg" alt="Electric Blue" >
+                    <div class="cocktail-info">
+                        <h3>Electric Blue</h3>
+                        <!-- <p>Vodka, blue curaçao, and energy with LED ice cubes</p> -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+                <div class="cocktail-card glow-card">
+                    <img src="media/rps-9.jpg" alt="Neon Nights" >
+                    <div class="cocktail-info">
+                        <h3>Neon Nights</h3>
+                        <!-- <p>Tequila, lime, and UV-reactive tonic with dry ice</p> -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+                <div class="cocktail-card glow-card">
+                    <img src="media/rp-12.jpg" alt="Bass Drop" >
+                    <div class="cocktail-info">
+                        <h3>Bass Drop</h3>
+                        <!-- <p>Whiskey, amaretto, and sound-reactive garnish</p> -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- VIP Packages -->
     <section class="vip-packages">
         <div class="container">
@@ -188,7 +224,7 @@
                 <div class="package-card">
                     <div class="package-header">
                         <h3>Gold VIP</h3>
-                        <div class="package-price">₦299,000<span>/night</span></div>
+                        <div class="package-price">₦99,000<span>/night</span></div>
                     </div>
                     <div class="package-features">
                         <ul>
@@ -204,7 +240,7 @@
                 <div class="package-card featured">
                     <div class="package-header">
                         <h3>Platinum VIP</h3>
-                        <div class="package-price">₦599,000<span>/night</span></div>
+                        <div class="package-price">₦299,000<span>/night</span></div>
                     </div>
                     <div class="package-features">
                         <ul>
@@ -221,7 +257,7 @@
                 <div class="package-card">
                     <div class="package-header">
                         <h3>Diamond VIP</h3>
-                        <div class="package-price">₦999,000<span>/night</span></div>
+                        <div class="package-price">₦499,000<span>/night</span></div>
                     </div>
                     <div class="package-features">
                         <ul>
@@ -239,71 +275,38 @@
         </div>
     </section>
 
-    <!-- Signature Cocktails -->
-    <section class="nightclub-cocktails">
-        <div class="container">
-            <h2 class="section-title">Signature Night Cocktails</h2>
-            <div class="cocktails-grid">
-                <div class="cocktail-card glow-card">
-                    <img src="media/club/electric-blue.jpg" alt="Electric Blue" loading="lazy">
-                    <div class="cocktail-info">
-                        <h3>Electric Blue</h3>
-                        <p>Vodka, blue curaçao, and energy with LED ice cubes</p>
-                        <span class="price">₦18,000</span>
-                    </div>
-                </div>
-                <div class="cocktail-card glow-card">
-                    <img src="media/club/neon-nights.jpg" alt="Neon Nights" loading="lazy">
-                    <div class="cocktail-info">
-                        <h3>Neon Nights</h3>
-                        <p>Tequila, lime, and UV-reactive tonic with dry ice</p>
-                        <span class="price">₦20,000</span>
-                    </div>
-                </div>
-                <div class="cocktail-card glow-card">
-                    <img src="media/club/bass-drop.jpg" alt="Bass Drop" loading="lazy">
-                    <div class="cocktail-info">
-                        <h3>Bass Drop</h3>
-                        <p>Whiskey, amaretto, and sound-reactive garnish</p>
-                        <span class="price">₦22,000</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- DJ Lineup -->
+    <!-- Club Timeless Atmosphere -->
     <section class="dj-lineup">
         <div class="container">
-            <h2 class="section-title">Resident DJs</h2>
+            <h2 class="section-title">Club Timless Vibes</h2>
             <div class="dj-grid">
                 <div class="dj-card">
-                    <img src="media/club/dj-nexus.jpg" alt="DJ Nexus" loading="lazy">
+                    <img src="media/club-night.jpg" alt="Club Timless Vibes" >
                     <div class="dj-info">
-                        <h3>DJ NEXUS</h3>
-                        <p>Electronic / Progressive House</p>
+                        <h3>Club Night</h3>
+                        <p>Join us for an electrifying night of music and dance.</p>
                         <div class="dj-schedule">Friday & Saturday Nights</div>
                     </div>
                 </div>
                 <div class="dj-card">
-                    <img src="media/club/dj-vibe.jpg" alt="DJ Vibe" loading="lazy">
+                    <img src="media/rps-3.jpg" alt="Club Timless Vibes" >
                     <div class="dj-info">
-                        <h3>DJ VIBE</h3>
-                        <p>Hip-Hop / R&B</p>
+                        <h3>Fun Night</h3>
+                        <p>Join us for a night of fun and excitement.</p>
                         <div class="dj-schedule">Thursday Nights</div>
                     </div>
                 </div>
                 <div class="dj-card">
-                    <img src="media/club/dj-luna.jpg" alt="DJ Luna" loading="lazy">
+                    <img src="media/show-2.jpg" alt="Club Timless Vibes" >
                     <div class="dj-info">
-                        <h3>DJ LUNA</h3>
-                        <p>Deep House / Techno</p>
+                        <h3>Event Night</h3>
+                        <p>Join us for a night of unforgettable performances and vibes.</p>
                         <div class="dj-schedule">Sunday Sessions</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <!-- Contact Section -->
     <section id="contact" class="contact nightclub-contact">
@@ -323,7 +326,6 @@
                                     height="200" 
                                     style="border:0; border-radius: 8px;" 
                                     allowfullscreen="" 
-                                    loading="lazy" 
                                     referrerpolicy="no-referrer-when-downgrade">
                                 </iframe>
                             </div>
@@ -442,7 +444,7 @@
     </footer>
 
     <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/2348123456789" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+    <a href="https://wa.me/23409074056338" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
