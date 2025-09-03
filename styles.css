@@ -1,3 +1,24 @@
+/* Hero Video Responsive Styles */
+.hero-video {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-heavy);
+    display: block;
+    background: #000;
+}
+
+@media (max-width: 767px) {
+    .hero-video {
+        height: 300px;
+    }
+}
+@media (max-width: 480px) {
+    .hero-video {
+        height: 200px;
+    }
+}
 /* Timeless Luxury - Premium Restaurant Website Styles */
 
 :root {
@@ -1513,6 +1534,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-xl);
+    text-align: center;
 }
 
 .contact-info h2 {
