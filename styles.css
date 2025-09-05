@@ -335,7 +335,7 @@ p {
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--light-gray);
     margin-bottom: var(--spacing-lg);
     font-weight: 400;
@@ -533,7 +533,7 @@ section {
 .section-title::after {
     content: '';
     position: absolute;
-    width: 90px;
+    width: 110px;
     height: 3px;
     background: linear-gradient(90deg, var(--gold) 0%, var(--dark-gold) 100%);
     bottom: -10px;
@@ -563,7 +563,7 @@ section {
 }
 
 .about-text p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: var(--spacing-md);
     color: var(--light-dark);
     text-align: justify;
